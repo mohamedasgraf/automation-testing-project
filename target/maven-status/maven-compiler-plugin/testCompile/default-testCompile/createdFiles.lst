@@ -1,0 +1,15 @@
+Tests\TC11Test.class
+Tests\TC07Test.class
+Base\BaseTest.class
+Tests\TC06Test.class
+Tests\TC04Test.class
+utilities\JsonDataReader.class
+Tests\TC05Test.class
+Tests\TC03Test.class
+Base\LoginData.class
+Tests\TC01Test.class
+Tests\TC09Test.class
+utilities\ConfigReader.class
+Tests\TC10Test.class
+Tests\TC08Test.class
+Tests\TC02Test.class

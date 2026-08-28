@@ -1,0 +1,23 @@
+[
+  {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  {
+    "username": "wrongUser",
+    "password": "wrongPassword"
+  },
+  {
+    "username": "",
+    "password": ""
+  },
+  {
+    "existingName": "Ravi M",
+    "non_existingName": "Ra____#vi M***##$$*///"
+  },
+  {
+    "emptyFirstName":"",
+    "firstName":"Moahmed225",
+    "lastName": "Ashraf88"
+  }
+]

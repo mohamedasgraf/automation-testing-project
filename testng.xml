@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRM Test Suite"
+       parallel="tests"
+       thread-count="2">
+
+    <test name="TC01 - Valid Login">
+        <classes>
+            <class name="Tests.TC01Test"/>
+        </classes>
+    </test>
+
+    <test name="TC02 - Invalid Login">
+        <classes>
+            <class name="Tests.TC02Test"/>
+        </classes>
+    </test>
+
+    <test name="TC03 - Empty Login">
+        <classes>
+            <class name="Tests.TC03Test"/>
+        </classes>
+    </test>
+
+    <test name="TC04 - Search Employee">
+        <classes>
+            <class name="Tests.TC04Test"/>
+        </classes>
+    </test>
+
+    <test name="TC05 - Search Non Existing Employee">
+        <classes>
+            <class name="Tests.TC05Test"/>
+        </classes>
+    </test>
+
+    <test name="TC06 - Add Employee Page">
+        <classes>
+            <class name="Tests.TC06Test"/>
+        </classes>
+    </test>
+
+    <test name="TC07 - Empty Required Field">
+        <classes>
+            <class name="Tests.TC07Test"/>
+        </classes>
+    </test>
+
+    <test name="TC08 - Add Employee Successfully">
+        <classes>
+            <class name="Tests.TC08Test"/>
+        </classes>
+    </test>
+
+    <test name="TC09 - Admin Add User">
+        <classes>
+            <class name="Tests.TC09Test"/>
+        </classes>
+    </test>
+
+    <test name="TC10 - Footer Branding">
+        <classes>
+            <class name="Tests.TC10Test"/>
+        </classes>
+    </test>
+
+    <test name="TC11 - Sidebar Menu">
+        <classes>
+            <class name="Tests.TC11Test"/>
+        </classes>
+    </test>
+
+</suite>
